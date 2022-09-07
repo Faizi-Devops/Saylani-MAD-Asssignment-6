@@ -1,0 +1,12 @@
+var a = prompt("Please enter the number");
+var b = Number(a);
+var c;
+if (b <= 0) {
+    alert("PLease enter the number (1-infinity only poositive number)");
+}
+else if (b > 0) {
+    for (c = 1; c <= b; c++) {
+        document.write("".concat(c));
+        document.write("<br>");
+    }
+}
